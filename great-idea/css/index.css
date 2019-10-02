@@ -184,6 +184,7 @@ footer p {
 /* Services */
 
 .services-list {
+	height: 550px;
 	display: flex;
 	flex-flow: wrap;
 	justify-content: space-between;
@@ -194,4 +195,19 @@ footer p {
 	padding: 10px;
 	width: calc(50% - 10px);
 	background: #f4f3f4;
+	border: 1px solid black;
+}
+
+.service button {
+	padding: 7px 20px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+
+/* Outro */
+
+section.outro {
+	display: flex;
 }
