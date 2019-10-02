@@ -168,5 +168,17 @@ footer p {
 }
 
 .services-intro h2, .services-intro p {
-	padding: 10px;
+	padding: 0px 16px;
 }
+
+.services-intro h2 {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+.services-intro {
+	border-bottom: 1px solid black;
+	padding-bottom: 30px;
+}
+
+/* Services */
