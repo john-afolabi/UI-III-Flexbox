@@ -95,7 +95,7 @@ img.logo {
 .intro {
 	padding-top: 50px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding-bottom: 70px;
 	border-bottom: 1px solid black;
 }
@@ -108,6 +108,7 @@ img.logo {
 
 .intro div {
 	text-align: center;
+	width: calc(50% - 30px);
 }
 
 .intro div button {
