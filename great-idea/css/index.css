@@ -64,3 +64,109 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	width: 920px;
+	margin: auto;
+}
+
+/* Header styles */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 85px;
+}
+
+nav .nav-item {
+	padding: 0 30px;
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+}
+
+img.logo {
+	max-height: 36px;
+	max-width: 183px;
+}
+
+/* Intro Section styles */
+.intro {
+	padding-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 70px;
+	border-bottom: 1px solid black;
+}
+
+.intro div h1 {
+	font-size: 75px;
+	text-align: center;
+	margin: 20px 0 0 20px;
+}
+
+.intro div {
+	text-align: center;
+}
+
+.intro div button {
+	background: white;
+	border: 1px solid black;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+
+/* Section One Style */
+.section-one {
+	display: flex;
+}
+
+.section-one div {
+	width: calc(50% - 10px);
+	padding: 40px 10px;
+}
+
+/* Middle Image */
+.main-content .middle-img {
+	text-align: center;
+}
+
+/* Section Two Style */
+.section-two {
+	display: flex;
+}
+
+.section-two div {
+	width: calc(50% - 10px);
+	padding: 40px 0 50px 0;
+	border-bottom: 1px solid black;
+}
+
+
+/* Footer Style */
+footer h3{
+	padding-top: 30px;
+}
+
+footer p {
+	margin: 30px auto 50px;
+	text-align: center;
+	font-size: 13px;
+}
+
+
+
+
+/* ............................................................. */
+/* Services Page */
+/* ............................................................. */
+
+/* Intro */
+.services-intro div {
+	text-align: center;
+}
+
+.services-intro h2, .services-intro p {
+	padding: 10px;
+}
