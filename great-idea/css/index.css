@@ -182,3 +182,16 @@ footer p {
 }
 
 /* Services */
+
+.services-list {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+
+.services-list .service{
+	padding: 10px;
+	width: calc(50% - 10px);
+	background: #f4f3f4;
+}
